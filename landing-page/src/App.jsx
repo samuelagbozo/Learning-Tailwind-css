@@ -52,6 +52,36 @@ function App() {
           </article>
         </div>
       </section>
+      <section className='mx-auto mt-20 w-full max-w-[80rem] sm:mt-[8rem]' id='agenda'>
+        <div className='mb-12 flex flex-col gap-4 sm:mb-20 sm:flex-row sm:items-start sm:justify-between'>
+          <h1 className='m-0 font-syne text-[clamp(2.5rem,7vw,4.5rem)] font-bold leading-none tracking-[-0.04em]'>AGENDA</h1>
+          <p className='m-0 max-w-[15rem] text-[clamp(0.72rem,1vw,0.85rem)] leading-[1.5] text-[#d0d0d0] sm:mt-2'>October 15-17, 2052 | Horizon Convention Center, Amsterdam</p>
+        </div>
+        <article className='grid min-h-[42rem] w-full max-w-[79.375rem] grid-rows-[repeat(3,auto)] content-between gap-y-12 overflow-hidden rounded-[2rem] bg-[#1b1b1b] px-6 py-10 sm:min-h-[42.5rem] sm:gap-y-20 sm:px-[clamp(2rem,7vw,3.125rem)] sm:py-[4rem]'>
+          <div className='grid grid-cols-1 gap-5 sm:grid-cols-[0.8fr_1fr] sm:gap-8'>
+            <h2 className='m-0 font-syne text-[clamp(1.25rem,2.8vw,2rem)] font-semibold leading-[1.35]'>Day 1<br />09:00 - 19:00</h2>
+            <div className="pl-[200px]">
+              <h2 className='m-0 pb-4 font-syne text-[clamp(1.25rem,2.8vw,2rem)] font-semibold leading-[1.2]'>AI Innovations &amp; Trends</h2>
+              <p className='m-0 max-w-[28rem] text-[clamp(0.78rem,1.1vw,0.9rem)] leading-[1.55] text-[#d1d1d1]'>The summit kicks off with a keynote, expert panels, and discussions on AI’s impact, ethics, and automation. Hands-on workshops and a networking event wrap up the day.</p>
+            </div>
+          </div>
+          <div className='grid grid-cols-1 gap-5 sm:grid-cols-[0.8fr_1fr] sm:gap-8'>
+            <h2 className='m-0 font-syne text-[clamp(1.25rem,2.8vw,2rem)] font-semibold leading-[1.35]'>Day 2<br />09:00 - 20:00</h2>
+            <div className="pl-[200px]">
+              <h2 className='m-0 pb-4 font-syne text-[clamp(1.25rem,2.8vw,2rem)] font-semibold leading-[1.2]'>AI Technologies &amp;<br className='hidden sm:block' /> Applications</h2>
+              <p className='m-0 max-w-[28rem] text-[clamp(0.78rem,1.1vw,0.9rem)] leading-[1.55] text-[#d1d1d1]'>Explore the latest in generative AI, robotics, and NLP, with industry-led discussions and tech demos. A startup showcase and investor insights highlight AI’s business potential.</p>
+            </div>
+          </div>
+          <div className='grid grid-cols-1 gap-5 sm:grid-cols-[0.8fr_1fr] sm:gap-8'>
+            <h2 className='m-0 font-syne text-[clamp(1.25rem,2.8vw,2rem)] font-semibold leading-[1.35]'>Day 3<br />09:30 - 16:00</h2>
+            <div className="pl-[200px]">
+              <h2 className='m-0 pb-4 font-syne text-[clamp(1.25rem,2.8vw,2rem)] font-semibold leading-[1.2]'>Future of AI &amp; Networking</h2>
+              <p className='m-0 max-w-[28rem] text-[clamp(0.78rem,1.1vw,0.9rem)] leading-[1.55] text-[#d1d1d1]'>Dive into AI’s long-term impact, attend expert-led workshops, and watch the startup pitch competition. The event closes with a visionary keynote and final networking sessions.</p>
+              <a className='mt-8 inline-flex min-h-[3.125rem] w-full max-w-[23rem] items-center justify-center gap-3 rounded-full bg-gradient-to-r from-[#0649f5] to-[#17274e] px-6 text-sm text-white no-underline transition hover:brightness-110' href='#schedule'>View detailed schedule <span aria-hidden='true'>&#8599;</span></a>
+            </div>
+          </div>
+        </article>
+      </section>
     </main>
   )
 }
